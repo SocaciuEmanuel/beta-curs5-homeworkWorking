@@ -56,9 +56,9 @@ public class ExercisesHomework {
         int[] result = new int[count];
 
         int index = 0;
-        for (int i = 0; i < array.length; i++) {
-            if (array[i] > number) {
-                result[index++] = array[i];
+        for (int j : array) {
+            if (j > number) {
+                result[index++] = j;
             }
         }
         return result;

@@ -33,16 +33,16 @@ public class ExercisesHomework {
 
     public static double ex1(double[] array) {
         double sum = 0;
-        for (double v : array) {
-            sum += v;
+        for (double number : array) {
+            sum += number;
         }
         return sum;
     }
 
     public static int ex2(double[] array) {
         int count = 0;
-        for (double v : array) {
-            if (v % 2 == 1) count++;
+        for (double number : array) {
+            if (number % 2 == 1) count++;
         }
         return count;
     }
